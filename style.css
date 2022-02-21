@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.colores{
+    min-width: 50%;
+    height: 100px;
+    border: none;
+}
+.btn{
+    width: 150px;
+    background-color: greenyellow;
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: rgb(77, 77, 77);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.exa_color{
+    color: rgb(93, 93, 93);
+    font-size: 1.2rem;
+}
+.visual_color{
+    min-width: 50%;
+    height: 100px;
+    border-radius: 5px;
+}
